@@ -8,8 +8,8 @@ Comes with A* and Breadth-First Pathfinding, a few heuristics and path smoothing
 pip install graphstar
 ```
 
-<b>License</b>
+<b>License</b><br>
 Take it, it's yours (MIT)
 
-<b>Docs</b>
+<b>Docs</b><br>
 For documentation ... plz look at the tests ... for now ...
