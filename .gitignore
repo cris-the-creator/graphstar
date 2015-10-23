@@ -1,0 +1,25 @@
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# IDE stuff
+/.idea/*
+
+.idea/*
+
+.idea/graphstar.iml
+
+.idea/inspectionProfiles/profiles_settings.xml
+
+.idea/inspectionProfiles/Project_Default.xml
+
+.idea/misc.xml
+
+.idea/vcs.xml
+
+.idea/modules.xml
