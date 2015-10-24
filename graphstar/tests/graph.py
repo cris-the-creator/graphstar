@@ -87,11 +87,3 @@ def test_duplicate_connection_not_allowed(g, two_nodes):
 	assert connected is True
 	connect_again = g.make_connection(n1, n2)
 	assert connect_again is False
-
-
-def test_bidirectional_connections():
-	pass
-
-
-def test_bidirectional_connections_duplicate_not_allowed():
-	pass
