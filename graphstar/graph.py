@@ -40,16 +40,11 @@ class Graph:
 	"""
 	Base graph. Holds all nodes and connections.
 	"""
-	def __init__(self, digraph: bool=False):
-		"""
-		Constructor.
-
-		:param digraph: bool  Does this graph support both directions?
-		"""
+	def __init__(self):
 		self.highest_id = 0
-		self.__digraph = digraph
 		self.__connections = {}
 		self.__nodes = {}
+		self.__flags = {}
 
 	def node_by_id(self, node_id: int):
 		"""
@@ -61,10 +56,6 @@ class Graph:
 		if node_id in self.__nodes:
 			return self.__nodes[node_id]
 		return None
-
-	def is_digraph(self):
-		"""True if this graph supports both directions"""
-		return self.__digraph
 
 	def make_node(self, x: int, y: int):
 		"""

@@ -2,20 +2,10 @@
 
 dist
 
+build
+
+.cache
+
 *.egg-info
 
-/.idea/*
-
-.idea/*
-
-.idea/graphstar.iml
-
-.idea/inspectionProfiles/profiles_settings.xml
-
-.idea/inspectionProfiles/Project_Default.xml
-
-.idea/misc.xml
-
-.idea/vcs.xml
-
-.idea/modules.xml
+.idea
